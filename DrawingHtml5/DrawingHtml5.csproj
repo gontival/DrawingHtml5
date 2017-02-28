@@ -108,7 +108,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\MicroScramble.css" />
     <Content Include="Content\svg.css" />
+    <Content Include="DragAndDrop.html" />
     <Content Include="Images\car.svg" />
     <Content Include="Images\CaShield.svg" />
     <Content Include="Images\pattern.png" />
