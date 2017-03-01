@@ -28,6 +28,5 @@ c:\users\jlevant\documents\visual studio 2015\Projects\DrawingHtml5\DrawingHtml5
 c:\users\jlevant\documents\visual studio 2015\Projects\DrawingHtml5\DrawingHtml5\bin\Microsoft.AI.WindowsServer.xml
 c:\users\jlevant\documents\visual studio 2015\Projects\DrawingHtml5\DrawingHtml5\bin\Microsoft.ApplicationInsights.xml
 c:\users\jlevant\documents\visual studio 2015\Projects\DrawingHtml5\DrawingHtml5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\jlevant\documents\visual studio 2015\Projects\DrawingHtml5\DrawingHtml5\obj\Debug\DrawingHtml5.csprojResolveAssemblyReference.cache
 c:\users\jlevant\documents\visual studio 2015\Projects\DrawingHtml5\DrawingHtml5\obj\Debug\DrawingHtml5.dll
 c:\users\jlevant\documents\visual studio 2015\Projects\DrawingHtml5\DrawingHtml5\obj\Debug\DrawingHtml5.pdb
