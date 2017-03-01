@@ -4,6 +4,8 @@ var $draggedItem;
 $(document).ready(function () {
     $('.item').on('dragstart', dragging);
     $('.item').on('dragend', draggingEnded);
+    $('.hole').on('dragenter', preventDefault);
+    $('.hole').on('dragover', dropItem);
 });
 
 function dragging(e) {
@@ -13,4 +15,16 @@ function dragging(e) {
 
 function draggingEnded(e) {
     $(e.target).removeClass('dragging');
+}
+
+function preventDefault(e) {
+    e.preventDefault();
+}
+
+function dropItem(e) {
+    var hole = $(e.target);
+    if (hole.hasClass('hole') && hole.children().length == 0) {
+        $draggedItem.detach();
+        $draggedItem.appendTo(($(e.target)));
+    }
 }
