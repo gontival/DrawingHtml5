@@ -108,10 +108,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\FileDragAndDrop.css" />
     <Content Include="Content\MicroScramble.css" />
     <Content Include="Content\svg.css" />
     <Content Include="DataTransfertObject.html" />
     <Content Include="DragAndDrop.html" />
+    <Content Include="FileDragAndDrop.html" />
     <Content Include="Images\car.svg" />
     <Content Include="Images\CaShield.svg" />
     <Content Include="Images\pattern.png" />
@@ -119,6 +121,7 @@
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="ScalableVectorGraphics.html" />
     <Content Include="Scripts\CarList.js" />
+    <Content Include="Scripts\FileDragAndDrop.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
