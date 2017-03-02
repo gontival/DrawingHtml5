@@ -11,7 +11,12 @@ function showMessage(message) {
 
 function getLocation() {
     if (supportsGeolocation()) {
-        navigator.geolocation.getCurrentPosition(showPosition);
+        var options = {
+            enableHighAccuracy: true,
+            timeout: 3000,
+            maximumAge : 20000
+        }
+        navigator.geolocation.getCurrentPosition(showPosition, showError, options);
     } else {
         showMessage("Geolocation is not supported by this browser.");
     }
@@ -23,4 +28,18 @@ function showPosition(position) {
         + position.coords.latitude + "<br />"
         + "Longitude: "
         + position.coords.longitude + "<br />" + "Timestamp: " + datetime);
+}
+
+function showError(error) {
+    switch (error.code) {
+        case error.PERMISSION_DENIED:
+            showMessage("User denied Geolocation access request.");
+            break;
+        case error.POSITION_UNAVAILABLE:
+            showMessage("Location information unavailable.");
+            break;
+        case error.UNKNOWN_ERROR:
+            showMessage("An unknwon error occured.");
+            break;
+    }
 }
